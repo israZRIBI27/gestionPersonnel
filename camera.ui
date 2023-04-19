@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>camera</class>
+ <widget class="QDialog" name="camera">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1027</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="takeImageButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>971</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Capture Photo</string>
+   </property>
+  </widget>
+  <widget class="QCameraViewfinder" name="viewfinder" native="true">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>801</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="takeImageButton_3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>856</y>
+      <width>971</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Capture Photo</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCameraViewfinder</class>
+   <extends>QWidget</extends>
+   <header>qcameraviewfinder.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

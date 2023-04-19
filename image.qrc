@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/aide.png</file>
+        <file>Images/Backgroud1.png</file>
+        <file>Images/Backgroud2.png</file>
+        <file>Images/Beneficiaires.png</file>
+        <file>Images/charts.png</file>
+        <file>Images/dash.png</file>
+        <file>Images/dashboard.gif</file>
+        <file>Images/emp.png</file>
+        <file>Images/events.png</file>
+        <file>Images/favicon.ico</file>
+        <file>Images/form.gif</file>
+        <file>Images/icon.png</file>
+        <file>Images/icons8-combo-chart.gif</file>
+        <file>Images/list.gif</file>
+        <file>Images/loginpage.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/profile.gif</file>
+        <file>Images/resetpwd.gif</file>
+        <file>Images/rest.png</file>
+        <file>Images/rsz_charts.png</file>
+    </qresource>
+</RCC>
